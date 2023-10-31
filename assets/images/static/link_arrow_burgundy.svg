@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="25"
+   viewBox="0 0 24 25"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="link_arrow_burgundy.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="9.44"
+     inkscape:cx="12"
+     inkscape:cy="12.5"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4" />
+  <g
+     clip-path="url(#clip0_276_226)"
+     id="g4">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M16.071 15.8788L19.071 15.8788L19.071 5.1864L8.37865 5.1864L8.37865 8.1864L14.0355 8.1864L3.91114 18.3108L6.03246 20.4321L16.071 10.3935L16.071 15.8788Z"
+       fill="#6A1840"
+       id="path2"
+       style="fill:#6a1840;fill-opacity:1" />
+  </g>
+  <defs
+     id="defs9">
+    <clipPath
+       id="clip0_276_226">
+      <rect
+         width="24"
+         height="24"
+         fill="white"
+         transform="translate(0 0.696777)"
+         id="rect6" />
+    </clipPath>
+  </defs>
+</svg>

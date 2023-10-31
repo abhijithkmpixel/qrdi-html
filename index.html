@@ -1,0 +1,2214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRDI</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+
+<body class="en">
+    <header class="bg-white w-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 col-lg-1">
+                    <div class="py-3 px-1 d-inline-block">
+                        <a class="navbar-brand" href="index.html">
+                            <svg width="242" height="265" viewBox="0 0 242 265" fill="none" xmlns="http://www.w3.org/2000/svg" class="qrdi-logo">
+                                <path d="M63.96 208.939L62.86 207.839C62.16 208.299 61.32 208.519 60.34 208.519C58.92 208.519 57.83 208.029 56.96 207.149C55.7 205.889 55.73 204.329 55.73 202.169C55.73 200.009 55.7 198.449 56.96 197.189C57.84 196.309 58.92 195.819 60.34 195.819C61.76 195.819 62.83 196.309 63.71 197.189C64.97 198.449 64.96 200.009 64.96 202.169C64.96 204.049 64.98 205.429 64.19 206.589L65.26 207.659L63.96 208.939ZM61.89 198.669C61.54 198.269 61 197.999 60.33 197.999C59.66 197.999 59.1 198.259 58.75 198.669C58.28 199.199 58.15 199.769 58.15 202.179C58.15 204.579 58.27 205.159 58.75 205.689C59.1 206.089 59.66 206.359 60.33 206.359C60.63 206.359 60.91 206.289 61.14 206.129L60.05 205.059L61.35 203.779L62.28 204.709C62.47 204.169 62.51 203.449 62.51 202.189C62.5 199.779 62.36 199.199 61.89 198.669Z" fill="black"/>
+                                <path d="M73.6901 208.419L71.2501 203.439H69.5001V208.419H67.0601V195.939H71.9501C74.4901 195.939 76.0001 197.679 76.0001 199.759C76.0001 201.509 74.9301 202.599 73.7201 203.039L76.5101 208.419H73.6901ZM71.7901 198.109H69.4901V201.409H71.7901C72.8601 201.409 73.5601 200.729 73.5601 199.759C73.5601 198.789 72.8601 198.109 71.7901 198.109Z" fill="black"/>
+                                <path d="M86.02 207.229C85.2 208.049 84.02 208.419 82.72 208.419H78.21V195.939H82.72C84.02 195.939 85.19 196.309 86.02 197.129C87.42 198.529 87.28 200.249 87.28 202.129C87.28 203.999 87.42 205.819 86.02 207.229ZM84.31 198.879C83.89 198.369 83.33 198.109 82.49 198.109H80.65V206.249H82.49C83.33 206.249 83.89 205.989 84.31 205.479C84.77 204.919 84.84 204.019 84.84 202.129C84.84 200.229 84.77 199.439 84.31 198.879Z" fill="black"/>
+                                <path d="M89.46 208.419V195.939H91.9V208.419H89.46Z" fill="black"/>
+                                <path d="M101.21 208.519C100.02 208.519 98.9099 208.059 98.0899 207.239C96.9499 206.099 96.9299 204.979 96.9299 202.169C96.9299 199.349 96.9499 198.239 98.0899 197.099C98.9099 196.279 100.02 195.819 101.21 195.819C103.45 195.819 105.03 197.219 105.45 199.469H104.49C104.12 197.739 102.89 196.669 101.21 196.669C100.32 196.669 99.4799 196.999 98.8399 197.629C97.9499 198.519 97.8799 199.509 97.8799 202.169C97.8799 204.829 97.9499 205.819 98.8399 206.709C99.4699 207.339 100.31 207.669 101.21 207.669C102.89 207.669 104.16 206.599 104.52 204.869H105.45C105.03 207.119 103.42 208.519 101.21 208.519Z" fill="black"/>
+                                <path d="M115.31 207.239C114.49 208.059 113.38 208.519 112.19 208.519C111 208.519 109.89 208.059 109.07 207.239C107.93 206.099 107.91 204.979 107.91 202.169C107.91 199.349 107.93 198.239 109.07 197.099C109.89 196.279 111 195.819 112.19 195.819C113.38 195.819 114.49 196.279 115.31 197.099C116.45 198.239 116.47 199.339 116.47 202.169C116.47 204.979 116.45 206.099 115.31 207.239ZM114.56 197.639C113.93 197.009 113.09 196.679 112.19 196.679C111.3 196.679 110.46 197.009 109.82 197.639C108.93 198.529 108.86 199.519 108.86 202.179C108.86 204.839 108.93 205.829 109.82 206.719C110.45 207.349 111.29 207.679 112.19 207.679C113.08 207.679 113.93 207.349 114.56 206.719C115.45 205.829 115.52 204.839 115.52 202.179C115.52 199.509 115.45 198.529 114.56 197.639Z" fill="black"/>
+                                <path d="M123.62 208.519C121.11 208.519 119.34 206.799 119.34 204.369V195.939H120.29V204.249C120.29 206.319 121.6 207.689 123.62 207.689C125.64 207.689 126.95 206.319 126.95 204.249V195.939H127.9V204.369C127.9 206.809 126.13 208.519 123.62 208.519Z" fill="black"/>
+                                <path d="M132.22 197.569V208.419H131.27V195.939H132.22L139.43 206.759V195.939H140.38V208.419H139.43L132.22 197.569Z" fill="black"/>
+                                <path d="M147.71 208.519C146.52 208.519 145.41 208.059 144.59 207.239C143.45 206.099 143.43 204.979 143.43 202.169C143.43 199.349 143.45 198.239 144.59 197.099C145.41 196.279 146.52 195.819 147.71 195.819C149.95 195.819 151.53 197.219 151.95 199.469H150.99C150.62 197.739 149.39 196.669 147.71 196.669C146.82 196.669 145.98 196.999 145.34 197.629C144.45 198.519 144.38 199.509 144.38 202.169C144.38 204.829 144.45 205.819 145.34 206.709C145.97 207.339 146.81 207.669 147.71 207.669C149.39 207.669 150.66 206.599 151.02 204.869H151.95C151.53 207.119 149.92 208.519 147.71 208.519Z" fill="black"/>
+                                <path d="M154.9 195.939H155.85V208.419H154.9V195.939Z" fill="black"/>
+                                <path d="M159.39 195.939H160.34V207.579H166.97V208.419H159.4V195.939H159.39Z" fill="black"/>
+                                <path d="M68.47 130.64H55.72V186.36H111.44V173.61H68.47V130.64Z" fill="black"/>
+                                <path d="M172.96 68.4697V111.44H185.72V55.7197H129.99V68.4697H172.96Z" fill="#6A1840"/>
+                                <path d="M111.44 68.4697V55.7197H55.72V111.44H68.47V68.4697H111.44Z" fill="#C8C9C7"/>
+                                <path d="M121.29 126.919H122.91H123.65H135.67H135.93H140.55C142.3 126.919 143.41 125.589 143.41 123.799C143.41 121.929 142.31 120.699 140.57 120.699C138.78 120.699 137.67 122.029 137.67 123.819C137.67 124.699 137.9 125.409 138.36 125.959H135.94H135.68H134.07C134.08 125.739 134.08 125.529 134.08 125.329C134.08 122.239 132.98 120.669 130.77 120.669C129.02 120.669 127.17 122.149 126.24 124.439L126.46 118.049H125.44V125.979H123.65V125.969H121.38V120.689H120.42V125.939C120.42 127.559 119.77 128.259 118.5 128.259V129.179C120.09 129.079 121.02 128.329 121.29 126.919ZM140.6 121.489C141.73 121.489 142.34 122.329 142.34 123.699C142.34 125.309 141.74 126.119 140.54 126.119C139.41 126.119 138.74 125.239 138.74 123.869C138.75 122.409 139.38 121.489 140.6 121.489ZM130.7 121.549C132.21 121.549 133.09 122.979 133.09 125.109C133.09 125.389 133.08 125.669 133.05 125.979H126.25C126.89 123.659 128.95 121.549 130.7 121.549Z" fill="black"/>
+                                <path d="M140.14 118.529H139.16V119.699H140.14V118.529Z" fill="black"/>
+                                <path d="M141.94 118.529H140.96V119.699H141.94V118.529Z" fill="black"/>
+                                <path d="M149.64 129.199C151.16 129.199 152.54 128.239 153.14 126.589C153.18 126.709 153.2 126.819 153.2 126.919H162.61H162.86H167.03H167.76H178.05H178.46H180.7C181.22 127.719 182.02 128.119 183.08 128.119C183.96 128.119 184.66 127.819 185.18 127.199C185.67 126.619 185.92 125.889 185.92 124.999C185.92 124.089 185.69 123.349 185.21 122.789C184.7 122.199 183.99 121.899 183.09 121.899C182.2 121.899 181.48 122.189 180.96 122.779C180.44 123.369 180.18 124.109 180.18 125.019C180.18 125.359 180.22 125.679 180.3 125.969H178.46H178.05H176.95V125.539C176.95 122.679 175.15 120.869 172.42 120.869C170.92 120.869 169.8 121.349 169.01 122.329C169.44 122.759 169.71 123.029 169.85 123.179C170.4 122.269 171.27 121.819 172.43 121.819C174.59 121.819 175.81 123.149 175.81 125.469C175.81 125.619 175.8 125.789 175.78 125.959H167.76H167.03H165.57C165.75 125.589 165.83 125.089 165.83 124.499V118.029H164.87V124.079C164.87 124.709 164.8 125.149 164.66 125.409C164.47 125.779 164.08 125.969 163.49 125.969H162.86V125.959H160.65C160.83 125.589 160.93 125.089 160.93 124.499V120.679H159.97V124.069C159.97 125.509 159.63 125.949 158.6 125.949H156.95C157.13 125.579 157.21 125.079 157.21 124.489V120.669H156.25V124.059C156.25 125.519 155.96 125.939 155.08 125.939H153.36C153.47 125.489 153.52 124.989 153.52 124.459V120.669H152.53V124.819C152.35 126.949 151.31 128.249 149.65 128.249C147.85 128.249 146.72 126.669 146.72 124.269V120.669H145.76V124.459C145.76 127.249 147.46 129.199 149.64 129.199ZM181.71 123.469C182.03 122.989 182.49 122.739 183.12 122.739C183.7 122.739 184.14 122.959 184.44 123.409C184.67 123.779 184.8 124.279 184.8 124.889C184.8 126.459 184.22 127.239 183.07 127.239C182.48 127.239 182.03 127.019 181.71 126.569C181.45 126.189 181.31 125.679 181.31 125.059C181.31 124.389 181.45 123.869 181.71 123.469Z" fill="black"/>
+                                <path d="M173.17 127.839H172.19V129.009H173.17V127.839Z" fill="black"/>
+                                <path d="M130.62 136.06H128.48V138.03H130.62V136.06Z" fill="black"/>
+                                <path d="M127.39 136.06H125.25V138.03H127.39V136.06Z" fill="black"/>
+                                <path d="M129 133.31H126.86V135.29H129V133.31Z" fill="black"/>
+                                <path d="M120.39 138.03V141C120.39 144.2 122.27 145.79 126.05 145.79H132.24C134.09 145.79 135.13 144.75 135.13 142.97V138.04H132.77V141.75C132.77 142.55 132.48 143.08 131.92 143.32C131.66 143.44 131.2 143.49 130.52 143.49H126.11C125 143.49 124.21 143.35 123.71 143.06C123.08 142.7 122.75 142 122.75 140.99V138.01H120.39V138.03Z" fill="black"/>
+                                <path d="M170.95 146.649H168.83V148.629H170.95V146.649Z" fill="black"/>
+                                <path d="M183.32 134.78V141.83C183.32 142.94 182.91 143.51 182.11 143.51H181.07H180.35H178.26C178.45 142.98 178.55 142.42 178.55 141.78V134.78H176.14V141.86C176.14 142.95 175.73 143.5 174.93 143.5H173.72H173.31H170.91C171.1 142.97 171.2 142.41 171.2 141.77V138.04H168.79V141.85C168.79 142.94 168.38 143.49 167.58 143.49H166.4H166.01H164.59C164.3 140.96 163.22 139.26 161.39 138.39C160.62 138.03 159.73 137.84 158.72 137.84C157.06 137.84 155.66 138.44 154.49 139.65C155.06 140.42 155.45 140.95 155.69 141.27C156.36 140.57 157.52 140.04 158.55 140.04C159.63 140.04 160.52 140.42 161.18 141.15C161.78 141.8 162.1 142.57 162.15 143.48H152.79H152.43H149.8H149.53H146.66H146.2H144.44V141.92C144.44 139.64 142.83 138 140.64 138C138.36 138 136.76 139.56 136.76 141.87C136.76 144.15 138.4 145.77 140.64 145.77C141.44 145.77 141.92 145.74 142.11 145.67C141.92 146.34 141.37 146.68 140.45 146.68H140.24V148.6H140.5C142.83 148.6 144.13 147.66 144.4 145.78H146.2H146.66H149.53H149.8H152.43H152.79H166H166.39H173.3H173.71H180.35H181.07H182.61C183.62 145.78 184.41 145.44 184.97 144.74C185.47 144.14 185.72 143.39 185.72 142.48V134.77H183.32V134.78ZM142.03 143.5H140.64C139.75 143.5 139.17 142.76 139.17 141.79C139.17 140.88 139.65 140.18 140.55 140.18C141.42 140.18 142.02 140.83 142.02 141.84V143.5H142.03Z" fill="black"/>
+                                <path d="M122.7 164.669H124.82H125.35H126.86C127.85 164.669 128.64 164.329 129.2 163.629C129.7 163.029 129.95 162.279 129.95 161.369V156.919H127.56V160.699C127.56 161.809 127.15 162.379 126.35 162.379H125.36H124.83H122.83V156.919H120.42V163.299C120.42 164.809 119.63 165.559 118.06 165.559V167.489C120.77 167.489 122.31 166.549 122.7 164.669Z" fill="black"/>
+                                <path d="M129.8 165.52H127.66V167.5H129.8V165.52Z" fill="black"/>
+                                <path d="M126.57 165.52H124.45V167.5H126.57V165.52Z" fill="black"/>
+                                <path d="M161.94 153.649H159.82V155.619H161.94V153.649Z" fill="black"/>
+                                <path d="M158.73 153.649H156.61V155.619H158.73V153.649Z" fill="black"/>
+                                <path d="M169.67 160.699C169.67 161.809 169.26 162.379 168.46 162.379H167.36H166.69H164.42H164.1H161.85C162.04 161.849 162.14 161.289 162.14 160.649V156.919H159.73V160.729C159.73 161.819 159.32 162.369 158.52 162.369H157.3H156.94H155.43C155.17 158.859 153.57 156.879 150.74 156.879C149.03 156.879 147.49 157.629 145.95 159.239L146.17 153.649H143.79V162.369H141.46H141.05H139.24V160.809C139.24 158.529 137.63 156.889 135.44 156.889C133.16 156.889 131.56 158.449 131.56 160.759C131.56 163.039 133.2 164.659 135.44 164.659C136.24 164.659 136.72 164.629 136.91 164.559C136.72 165.229 136.17 165.569 135.25 165.569H135.04V167.489H135.3C137.63 167.489 138.93 166.549 139.2 164.669H141.05H141.46H156.92H157.28H164.09H164.41H166.68H167.35H168.94C169.95 164.669 170.74 164.329 171.3 163.629C171.8 163.029 172.05 162.279 172.05 161.369V153.659H169.65V160.699H169.67ZM136.85 162.369H135.46C134.57 162.369 133.99 161.629 133.99 160.659C133.99 159.749 134.47 159.049 135.37 159.049C136.24 159.049 136.84 159.699 136.84 160.709V162.369H136.85ZM152.91 162.369H145.9C147.22 160.109 148.79 158.969 150.55 158.969C152.04 158.969 152.93 160.249 152.93 162.029C152.93 162.149 152.93 162.249 152.91 162.369Z" fill="black"/>
+                                <path d="M176.2 153.629H173.81V164.659H176.2V153.629Z" fill="black"/>
+                                <path d="M181.9 156.879C179.66 156.879 178.05 158.449 178.05 160.799C178.05 163.089 179.69 164.769 181.9 164.769C182.7 164.769 183.27 164.509 183.59 163.979C183.59 164.899 182.65 165.569 181.69 165.569H181.54V167.489H181.78C184.4 167.489 185.7 166.429 185.7 164.329V160.839C185.7 158.579 184.11 156.879 181.9 156.879ZM181.93 162.539C180.99 162.539 180.44 161.739 180.44 160.779C180.44 159.769 181 159.049 181.84 159.049C182.7 159.049 183.29 159.789 183.29 160.829C183.3 161.879 182.79 162.539 181.93 162.539Z" fill="black"/>
+                                <path d="M120.39 182.169C120.39 183.679 119.6 184.429 118.03 184.429V186.359C119.67 186.359 120.87 186.039 121.6 185.369C122.4 184.669 122.8 183.539 122.8 181.969V175.789H120.39V182.169Z" fill="black"/>
+                                <path d="M148 172.52H145.88V174.49H148V172.52Z" fill="black"/>
+                                <path d="M151.21 172.52H149.09V174.49H151.21V172.52Z" fill="black"/>
+                                <path d="M161.56 184.379H159.44V186.359H161.56V184.379Z" fill="black"/>
+                                <path d="M159.3 179.569C159.3 180.679 158.89 181.249 158.09 181.249H157.25H156.96H153.92H153.6H151.12C151.31 180.719 151.41 180.159 151.41 179.519V175.789H149V179.599C149 180.689 148.59 181.239 147.79 181.239H146.52H146.21H143.45H143.02H141.26C141 178.949 140.11 177.359 138.59 176.449C137.96 176.069 137.21 175.849 136.37 175.769H135.09L137.23 172.519H134.37L130.98 177.979H135.29C136.21 177.979 137 178.299 137.65 178.949C138.25 179.549 138.63 180.319 138.74 181.239H129.69H129.33H128.99C127.23 181.239 126.94 180.619 126.94 179.459V172.499H124.55V180.709C124.55 182.469 125.61 183.529 127.44 183.529H129.34H129.7H143.03H143.46H146.22H146.53H153.61H153.93H156.97H157.26H158.61C159.6 183.529 160.39 183.189 160.95 182.489C161.45 181.889 161.7 181.139 161.7 180.229V175.779H159.31V179.569H159.3Z" fill="black"/>
+                                <path d="M169.7 179.5C169.7 180.65 169.29 181.23 168.49 181.24L166.37 173.66H163.84L166 181.24H163.45V183.53H169.13C169.97 183.53 170.67 183.27 171.23 182.76C171.8 182.23 172.07 181.56 172.07 180.72V172.51H169.71V179.5H169.7Z" fill="black"/>
+                                <path d="M176.2 172.51H173.81V183.54H176.2V172.51Z" fill="black"/>
+                                <path d="M181.9 175.76C179.66 175.76 178.05 177.33 178.05 179.68C178.05 181.97 179.69 183.65 181.9 183.65C182.7 183.65 183.27 183.39 183.59 182.86C183.59 183.78 182.65 184.45 181.69 184.45H181.54V186.37H181.78C184.4 186.37 185.7 185.31 185.7 183.21V179.72C185.7 177.45 184.11 175.76 181.9 175.76ZM181.93 181.42C180.99 181.42 180.44 180.62 180.44 179.66C180.44 178.65 181 177.93 181.84 177.93C182.7 177.93 183.29 178.67 183.29 179.71C183.3 180.75 182.79 181.42 181.93 181.42Z" fill="black"/>
+                                <path d="M185.72 195.939H173.24V208.419H185.72V195.939Z" fill="#6A1840"/>
+                            </svg>  
+                        </a>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-11 my-auto">
+                    <nav class="navbar navbar-expand-lg bg-white d-inline-block w-100 text-end">
+                        <button class="navbar-toggler pt-0 pe-0 pe-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="assets/images/static/burger-menu.svg" alt="">
+                        </button>
+                        <div class="collapse navbar-collapse text-start" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="national-ambition.html">National Ambition
+                                </a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="innovation.html">Innovation</a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="scientific-research.html">Scientific Research</a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="strategic-focus.html">Strategic Focus </a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="strategic-initiatives.html">Strategic Initiatives</a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="about.html">About
+                                </a>
+                                <hr>
+                            </li>
+                            <li class="font-b text-black px-2 main-link">
+                                <a class="nav-link text-black" aria-current="page" href="https://connect.qrdi.org.qa/" target="_blank">QRDI Portal
+                                </a>
+                                <hr>
+                            </li>
+                            
+                        </ul>
+                        <!-- <div class="ms-auto beta-sign text-center">
+                            <p class="me-0 me-lg-5 my-3 font-b text-burgundy fs-12">Beta</p>
+                        </div>-->
+<div class="ms-auto">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="font-b text-black px-2 main-link">
+                                    <a class="nav-link text-black" aria-current="page" href="connect.html">Reach Us 
+                                    </a>
+                                    <hr>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="ms-auto">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="font-b text-black px-2 main-link">
+                                    <a class="nav-link text-black" aria-current="page" href="reach.html">Reach Us 
+                                    </a>
+                                    <hr>
+                                </li>
+                                <li class="font-ar text-black px-2 main-link">
+                                    <a class="nav-link text-black fw-700" aria-current="page" href="ar/index.html">عربي</a>
+                                    <hr>
+                                </li>
+                                <li class="px-2 search-button">
+                                    <a href="javascript();">
+                                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="42" height="42" rx="21" fill="#E2E2E2"/>
+                                            <path d="M24.4351 23.0629H23.7124L23.4563 22.8159C24.3528 21.773 24.8925 20.4191 24.8925 18.9463C24.8925 15.6621 22.2304 13 18.9463 13C15.6621 13 13 15.6621 13 18.9463C13 22.2304 15.6621 24.8925 18.9463 24.8925C20.4191 24.8925 21.773 24.3528 22.8159 23.4563L23.0629 23.7124V24.4351L27.6369 29L29 27.6369L24.4351 23.0629ZM18.9463 23.0629C16.6684 23.0629 14.8296 21.2241 14.8296 18.9463C14.8296 16.6684 16.6684 14.8296 18.9463 14.8296C21.2241 14.8296 23.0629 16.6684 23.0629 18.9463C23.0629 21.2241 21.2241 23.0629 18.9463 23.0629Z" fill="black"/>
+                                            </svg>
+                                            
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div> -->
+                        <!-- <form class="form-inline search-form d-flex align-items-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.1527 15.0943H16.0686L15.6844 14.7238C17.0292 13.1595 17.8388 11.1286 17.8388 8.91938C17.8388 3.99314 13.8456 0 8.91938 0C3.99314 0 0 3.99314 0 8.91938C0 13.8456 3.99314 17.8388 8.91938 17.8388C11.1286 17.8388 13.1595 17.0292 14.7238 15.6844L15.0943 16.0686V17.1527L21.9554 24L24 21.9554L17.1527 15.0943ZM8.91938 15.0943C5.50257 15.0943 2.74443 12.3362 2.74443 8.91938C2.74443 5.50257 5.50257 2.74443 8.91938 2.74443C12.3362 2.74443 15.0943 5.50257 15.0943 8.91938C15.0943 12.3362 12.3362 15.0943 8.91938 15.0943Z" fill="black"/>
+                                </svg>
+                            <div class="form-group mx-sm-3 form-group-custom">
+                              <input type="text" class="form-control border-0" id="search-text" placeholder="Enter search term">
+                            </div>
+                            <a href="javascript();" class="close-form">
+                                <svg
+                                class="close-button"
+                                xmlns:dc="http://purl.org/dc/elements/1.1/"
+                                xmlns:cc="http://creativecommons.org/ns#"
+                                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                xmlns:svg="http://www.w3.org/2000/svg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 6.3499998 6.3499998"
+                                version="1.1"
+                                id="svg8"
+                                inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+                                sodipodi:docname="X.svg">
+                                <defs
+                                    id="defs2" />
+                                <sodipodi:namedview
+                                    id="base"
+                                    pagecolor="#ffffff"
+                                    bordercolor="#666666"
+                                    borderopacity="1.0"
+                                    inkscape:pageopacity="0.0"
+                                    inkscape:pageshadow="2"
+                                    inkscape:zoom="22.4"
+                                    inkscape:cx="8.5752181"
+                                    inkscape:cy="8.5528712"
+                                    inkscape:document-units="mm"
+                                    inkscape:current-layer="layer1"
+                                    showgrid="false"
+                                    units="px"
+                                    inkscape:window-width="1920"
+                                    inkscape:window-height="991"
+                                    inkscape:window-x="-9"
+                                    inkscape:window-y="-9"
+                                    inkscape:window-maximized="1" />
+                                <metadata
+                                    id="metadata5">
+                                    <rdf:RDF>
+                                    <cc:Work
+                                        rdf:about="">
+                                        <dc:format>image/svg+xml</dc:format>
+                                        <dc:type
+                                        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                                        <dc:title></dc:title>
+                                    </cc:Work>
+                                    </rdf:RDF>
+                                </metadata>
+                                <g
+                                    inkscape:label="Layer 1"
+                                    inkscape:groupmode="layer"
+                                    id="layer1"
+                                    transform="translate(0,-290.65)">
+                                    <rect
+                                    ry="0.58958077"
+                                    y="-210.96677"
+                                    x="-209.31337"
+                                    height="8.5341158"
+                                    width="1.0322859"
+                                    id="rect817"
+                                    style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01837155;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                    transform="matrix(-0.71114471,-0.70304566,0.70285865,-0.71132955,0,0)" />
+                                    <rect
+                                    transform="matrix(0.70442522,-0.70977821,0.70996341,0.70423857,0,0)"
+                                    style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01837155;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                    id="rect819"
+                                    width="1.0322859"
+                                    height="8.5341158"
+                                    x="-206.86491"
+                                    y="204.9855"
+                                    ry="0.58958077" />
+                                </g>
+                                </svg>
+                            </a>
+                        </form> -->
+                        </div>
+                    </nav>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+    <div class="content-holder position-relative">
+        <div class="text-white vertical-bar h-100vh">
+            <div class="d-flex flex-column h-100">
+                <ul class="p-0 px-3 pb-2 mb-0 mt-auto">
+                    <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#partners-section" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">National Ambition</p>  
+                        </a>
+                    </li>
+                    <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#innovation" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Innovation</p>  
+                        </a>
+                    </li>
+                    <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#research" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Scientific Research</p>  
+                        </a>
+                    </li>
+                    <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#2030vision" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Strategic Focus</p>  
+                        </a>
+                    </li>
+                    <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#rditalent" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Strategic Initiatives</p>  
+                        </a>
+                    </li>
+                    <!-- <li class="mb-3 fs-small d-flex align-items-center">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Spotlight</p>  
+                        </a>
+                    </li> -->
+                    <!-- <li class="mb-3 fs-small">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                           
+                            <p class="m-0 ms-2 font-b">Leadership Thoughts</p>  
+                        </a>
+                    </li> -->
+                    <!-- <li class="mb-3 fs-small ">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                           
+                            <p class="m-0 ms-2 font-b">Events</p>  
+                        </a>
+                    </li> -->
+                    <!-- <li class="mb-3 fs-small">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                          
+                            <p class="m-0 ms-2 font-b">Publications</p>  
+                        </a>
+                    </li> -->
+                    <!-- <li class="mb-3 fs-small">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                           
+                            <p class="m-0 ms-2 font-b">Newsletters</p> 
+                        </a>
+                    </li> -->
+                    <!-- <li class="mb-3 fs-small">
+                        <a href="#explore" class="d-flex align-items-center stickylink explore tab-nav">
+                            
+                            <p class="m-0 ms-2 font-b">Podcasts</p> 
+                        </a>
+                    </li> -->
+                    <li class="mb-3 fs-small">
+                        <a href="#news" class="d-flex align-items-center stickylink news">
+                            
+                            <p class="m-0 ms-2 font-b">News</p> 
+                        </a>
+                    </li>
+                    <!-- <li class="mb-3 fs-small">
+                        <a href="#connect" class="d-flex align-items-center stickylink">
+                         
+                            <p class="m-0 ms-2 font-b">Connect with us</p> 
+                        </a>
+                    </li> -->
+                    <li class="mb-3 fs-small">
+                        <a href="https://connect.qrdi.org.qa/" class="d-flex align-items-center stickylink" target="_blank">
+                         
+                            <p class="m-0 ms-2 font-b">QRDI Portal</p> 
+                        </a>
+                    </li>
+                </ul>
+                <a href="javascript();" id="scroll" class="text-center arrow-div py-5 ">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrowDown">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2832 28.7421L9.3335 33.6918L26.975 51.3334L44.6166 33.6918L39.6668 28.7421L30.3335 38.0754L30.3335 4.6667L23.3335 4.6667L23.3335 37.7923L14.2832 28.7421Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="javascript();" id="scrolltop" class="text-center arrow-div py-5 d-none">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrowDown">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2832 28.7421L9.3335 33.6918L26.975 51.3334L44.6166 33.6918L39.6668 28.7421L30.3335 38.0754L30.3335 4.6667L23.3335 4.6667L23.3335 37.7923L14.2832 28.7421Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="arrow-mobile position-absolute">
+            <a href="#partners-section" class="arrow-mobile">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.16168 16.4241L5.33325 19.2525L15.4141 29.3334L25.495 19.2525L22.6666 16.4241L17.3333 21.7574L17.3333 2.66671L13.3333 2.66671L13.3333 21.5956L8.16168 16.4241Z" fill="white"/>
+                </svg>
+            </a>   
+        </div>
+    </div>
+        <section class="section section-active h-100vh text-white blackbg position-relative first-fold" id="whoweare">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiperTop">
+                <div class="swiper-wrapper h-100vh">
+                    <div class="swiper-slide activeTop" data-slide-index="0">
+                        <div class="swiper-content">
+                            <!-- <img src="assets/images/dynamic/background1.jpg" class=""/> -->
+                            <video autoplay="" muted="" loop="" id="mainPageVideo" class="h-100vh" poster="assets/images/dynamic/background1.jpg">
+                                <source src="assets/video/na-banner.mp4" type="video/mp4">
+                                                        Your browser does not support HTML5 video.
+                            </video>
+                            <div class="position-absolute text-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector1-hero">
+                                                <path d="M41 10.1888V0.972656H0V47.9727H9.38909V10.1888H41Z" fill="#6A1840"/>
+                                                </svg>
+                                            <div class="wordContainer">
+                                                <div class="word">
+                                                    <h1 class="swiper-text font-r">
+                                                        Towards economic diversification
+                                                        through “<span class="font-b">a knowledge-based Economy</span> 
+                                                        characterised by <span class="font-b">Innovation.</span>”
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector2-hero">
+                                                <path d="M8.05698e-07 38.2292L0 47.4453L41 47.4453L41 0.445312L31.6109 0.445312L31.6109 38.2292L8.05698e-07 38.2292Z" fill="#B1B3B3"/>
+                                                </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="1">
+                        <div class="swiper-content">
+                            <!-- <img src="assets/images/dynamic/background1.jpg" class=""/> -->
+                            <video autoplay="" muted="" loop="" id="mainPageVideo" class="h-100vh" poster="assets/images/dynamic/background1.jpg">
+                                <source src="assets/video/na-banner.mp4" type="video/mp4">
+                                                        Your browser does not support HTML5 video.
+                            </video>
+                            <div class="position-absolute text-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector1-hero">
+                                                <path d="M41 10.1888V0.972656H0V47.9727H9.38909V10.1888H41Z" fill="#6A1840"/>
+                                                </svg>
+                                            <div class="wordContainer">
+                                                <div class="word">
+                                                    <h1 class="swiper-text font-r">
+                                                        Facilitating the adaptation and development of new technologies contributing to societal and economic progress
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector2-hero">
+                                                <path d="M8.05698e-07 38.2292L0 47.4453L41 47.4453L41 0.445312L31.6109 0.445312L31.6109 38.2292L8.05698e-07 38.2292Z" fill="#B1B3B3"/>
+                                                </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="2">
+                        <div class="swiper-content">
+                            <!-- <img src="assets/images/dynamic/background1.jpg" class=""/> -->
+                            <video autoplay="" muted="" loop="" id="mainPageVideo" class="h-100vh" poster="assets/images/dynamic/background1.jpg">
+                                <source src="assets/video/na-banner.mp4" type="video/mp4">
+                                                        Your browser does not support HTML5 video.
+                            </video>
+                            <div class="position-absolute text-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector1-hero">
+                                                <path d="M41 10.1888V0.972656H0V47.9727H9.38909V10.1888H41Z" fill="#6A1840"/>
+                                                </svg>
+                                            <div class="wordContainer">
+                                                <div class="word">
+                                                    <h1 class="swiper-text font-r">
+                                                        Over the last decade, Qatar has built strength in education and has owned a leading role in scientific research in the region.
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector2-hero">
+                                                <path d="M8.05698e-07 38.2292L0 47.4453L41 47.4453L41 0.445312L31.6109 0.445312L31.6109 38.2292L8.05698e-07 38.2292Z" fill="#B1B3B3"/>
+                                                </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="3">
+                        <div class="swiper-content">
+                            <!-- <img src="assets/images/dynamic/background1.jpg" class=""/> -->
+                            <video autoplay="" muted="" loop="" id="mainPageVideo" class="h-100vh" poster="assets/images/dynamic/background1.jpg">
+                                <source src="assets/video/na-banner.mp4" type="video/mp4">
+                                                        Your browser does not support HTML5 video.
+                            </video>
+                            <div class="position-absolute text-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector1-hero">
+                                                <path d="M41 10.1888V0.972656H0V47.9727H9.38909V10.1888H41Z" fill="#6A1840"/>
+                                                </svg>
+                                            <div class="wordContainer">
+                                                <div class="word">
+                                                    <h1 class="swiper-text font-r">
+                                                
+Aiming to promote Qatar's role as a global leader in innovation and scientific research and to diversify the country's economy.
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                            <svg width="41" height="48" viewBox="0 0 41 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute vector2-hero">
+                                                <path d="M8.05698e-07 38.2292L0 47.4453L41 47.4453L41 0.445312L31.6109 0.445312L31.6109 38.2292L8.05698e-07 38.2292Z" fill="#B1B3B3"/>
+                                                </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute w-100 swipe-thumb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-11">
+                            <div thumbsSlider="" class="swiper swiperThumbs">
+                                <div class="default-bar"></div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide d-block text-start">
+                                        <div class="bar mb-3">
+                                            <div class="progress"></div>
+                                        </div>
+                                        <p class="font-r fs-18"><span class="english-number">01</span></p>
+                                        <a href="about.html">
+                                            <p class="font-b fs-18">QRDI Council </p>
+                                        </a>
+                                       
+                                        <!-- <p class="font-m fs-18">QRDI Council </p> -->
+                                    </div>
+                                    <div class="swiper-slide d-block text-start me-4">
+                                        <div class="bar mb-3">
+                                            <div class="progress"></div>
+                                        </div>
+                                        <p class="font-r fs-18"><span class="english-number">02</span></p>
+                                        <a href="innovation.html">
+                                            <p class="font-b fs-18">Innovation</p>
+                                        </a>
+                                        <!-- <p class="font-b fs-18">Research Outcome Seminar:</p>
+                                        <p class="font-m fs-18">Waste to Value - <span class="english-number">02</span> May </p> -->
+                                    </div>
+                                    <div class="swiper-slide d-block text-start me-3">
+                                        <div class="bar mb-3">
+                                            <div class="progress"></div>
+                                        </div>
+                                        <p class="font-r fs-18"><span class="english-number">03</span></p>
+                                        <a href="scientific-research.html">
+                                            <p class="font-b fs-18">Scientific Research</p>
+                                        </a>
+                                        <!-- <p class="font-b fs-18">QRDI Portal Live </p>
+                                        <p class="font-m fs-18">Funding up to <span class="english-number">$1,000,000</span></p> -->
+                                    </div>
+                                    <div class="swiper-slide d-block text-start">
+                                        <div class="bar mb-3">
+                                            <div class="progress"></div>
+                                        </div>
+                                        <p class="font-r fs-18"><span class="english-number">04</span></p>
+                                        <a href="strategic-focus.html">
+                                            <p class="font-b fs-18">Strategic Focus</p>
+                                        </a>
+                                        <!-- <p class="font-b fs-18">Funding Opportunites</p>
+                                        <p class="font-m fs-18">Apply now</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".swiperThumbs", {
+                    slidesPerView: "auto",
+                    freeMode: false,
+                    watchSlidesProgress: true,
+                    slideToClickedSlide: true,
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 4,
+                        },
+                    },
+                    autoplay: {
+                        delay: 5500,
+                        disableOnInteraction: false,
+                    },
+                    on:{
+                        click(event) {
+                            swiper.slideTo(this.clickedIndex);
+                        }
+                    }
+                });
+                
+                var swiperTop = new Swiper(".swiperTop", {
+                    spaceBetween: 0,
+                    slidesPerView: 1,
+                    thumbs: {
+                        swiper: swiper,
+                    },
+                    autoplay: {
+                        delay: 5500,
+                        disableOnInteraction: false,
+                    },
+                });
+                
+                swiper.on('slideChange', function () {
+                    
+                    setTimeout(() => {
+                        var activeSlide = swiper.activeIndex;
+                        // console.log("activeSlide" + activeSlide)
+                        $(".swiperTop .swiper-slide").each(function(){
+                            $(this).removeClass("activeTop")
+                            let topActiveSlide = $(this).attr('data-slide-index')
+                            // console.log(activeSlide, topActiveSlide)
+                            if (topActiveSlide == activeSlide) {
+                                $(this).addClass("activeTop")
+                            }
+                        })
+                        $(".progress").clearQueue()
+                        .stop()
+                        .css(
+                            {width:'0%'}
+                        );
+                        $(".swiper-slide-active .progress").clearQueue()
+                        .stop()
+                        .css(
+                            {width:'0%'}
+                        )
+                        .animate({
+                            width: "100%"
+                        }, 5500);
+                        }, 300);
+                        });
+    
+    
+    
+                        swiperTop.on('slideChange', function () {
+                    
+                    setTimeout(() => {
+                        
+                        $(".progress").clearQueue()
+                        .stop()
+                        .css(
+                            {width:'0%'}
+                        );
+                        $(".swiper-slide-thumb-active .progress").clearQueue()
+                        .stop()
+                        .css(
+                            {width:'0%'}
+                        )
+                        .animate({
+                            width: "100%"
+                        }, 5500);
+                        }, 300);
+                        });
+            </script>
+        </section>
+        <main class="main">
+            <section class="section py-lg-5 height-auto py-60-bottom" id="partners-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 text-center">
+                            <h3 class="fs-24 font-art">Research, Development, and Innovation (RDI) Actors</h3> 
+                            <!-- <a href="" class="font-art text-burgundy">View all</a> -->
+                            <div class="d-flex overflow-x-scroll my-3 mb-5">
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon1.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Ministries & 
+                                        Governmental 
+                                        Entities</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon2.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Universities & 
+                                        Research Institutes</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon3.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Industrial R&D 
+                                        Centers</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon4.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Innovative 
+                                        Businesses</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon5.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Incubator & Accelerators</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon6.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">Venture Capital
+                                        Funds</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon7.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">RDI Supporting 
+                                        Businesses</p>
+                                </div>
+                                <div class="me-4">
+                                    <img src="assets/images/static/actor-icon8.svg" alt="" class="rdi-actor-icon">
+                                    <p class="fs-14">National Supporting 
+                                        & Funding Entities</p>
+                                </div>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 offset-lg-1 mb-3 ">
+                            <div class="images-wrapper position-relative">
+                                <div class="position-relative image-wrapper">
+                                    <img src="assets/images/dynamic/partner.png" alt="">
+                                </div>
+                                <img src="assets/images/static/dots.svg" alt="" class="position-absolute dotted-image" >
+                                <img src="assets/images/static/vector1.svg" alt="" class="position-absolute vector-image" data-scroll-speed="18"  >
+                                <img src="assets/images/static/vector2.svg" alt="" class="position-absolute vector-image2" data-scroll-speed="18" >
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex" data-aos="fade-up" 
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="800" data-aos-easing="ease-out">
+                            <div class="rect bg-burgundy mt-3 me-4 pe-3"></div>
+                            <div class="flex-column m-end mt-3 mt-lg-0">
+                                <h2 class="font-art mb-lg-4">Our National Ambition </h2>
+                                <p class="font-r fs-18 mb-lg-5 lh-custom">
+                                    Over the past two decades, Qatar has built strength in education and research, developing world-class facilities that form the foundation to the ambitious research, development and innovation (RDI) journey ahead. 
+                                </p>
+                                <a href="national-ambition.html" class="border-0 burgundy-button py-3 px-3 d-flex align-items-center mt-lg-5 min-70">
+                                    <p class="mb-0 font-b text-white me-4">
+                                        Learn more on our ambiton
+                                    </p>
+                                    <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                </a>
+                                
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="section pb-0 border-grey-top border-grey-bottom height-auto" id="explore">
+                <div class="container-fluid">
+                    <div class="row align-items-center border-grey-bottom bg-greyl pt-5">
+                      <div class="col offset-lg-1 position-relative">
+                        <div class="mb-2 mb-lg-4 ">
+                            <div class="rect bg-burgundy me-2 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                            <h1 class="font-b d-inline-block title v-align-middle">Explore</h1>
+                        </div>
+                        <ul class="nav nav-tabs border-0 flex-nowrap overflow-x-scroll" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active font-b bg-transparent border-0 fs-18 pb-0" id="explore-all-tab" data-bs-toggle="tab" data-bs-target="#explore-all-tab-pane" type="button" role="tab" aria-controls="explore-all-tab-pane" aria-selected="true"><span class="py-3">All</span> <hr></a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a href="#Spotlight" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="spotlight-tab" data-bs-toggle="tab" data-bs-target="#spotlight-tab-pane" type="button" role="tab" aria-controls="spotlight-tab-pane" aria-selected="true"><span class="py-3 me-2">Spotlight</span> <span class="bg-burgundy fs-12 text-white p-1">NEW</span> <hr></a>
+                              </li>
+                            <li class="nav-item" role="presentation">
+                              <a href="#Events" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="events-tab" data-bs-toggle="tab" data-bs-target="#events-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span class="py-3">Events</span> <hr></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a href="#Publications" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="publications-tab" data-bs-toggle="tab" data-bs-target="#publications-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Publications <hr></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="#Newsletters" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="newsletters-tab" data-bs-toggle="tab" data-bs-target="#newsletters-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Newsletters <hr></a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a href="#LeadershipThoughts" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="leadership-tab" data-bs-toggle="tab" data-bs-target="#leadership-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Leadership Thoughts <hr></a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a href="#Podcasts" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="podcasts-tab" data-bs-toggle="tab" data-bs-target="#podcasts-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Podcasts <hr></a>
+                              </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end align-items-center bg-white pt-5 py-60-bottom">
+                        <div class="col-lg-11 position-relative">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="explore-all-tab-pane" role="tabpanel" aria-labelledby="explore-all-tab" tabindex="0">  
+                                    <div class="swiper exploreAllSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="lt1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore1.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">08 Nov 2023</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="podcast1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">10 Dec 2023</p>
+                                                                <p class="card-title font-b mb-4">Dr. Richard O’Kennedy discusses the 
+                                                                    Nation’s RDI Ambition and Strategic 
+                                                                    Direction </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Podcasts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="nl1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore3.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">13 Dec 2023</p>
+                                                                <p class="card-title font-b mb-4">January Newsletter: Monthly roundup QRDI Council Announces Corporate 
+                                                                    Innovation Leaders Program</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Newsletters</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="event1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore4.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">20 Dec 2022</p>
+                                                                <p class="card-title font-b mb-4">14th Annual Undergraduate Research 
+                                                                    Experience Program Competition
+                                                                    </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Events</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 exploreAllControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                     <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a> 
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var exploreAllSwiper = new Swiper(".exploreAllSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".exploreAllControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".exploreAllControls .swiper-button-next",
+                                            prevEl: ".exploreAllControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                         <div class="tab-pane fade" id="spotlight-tab-pane" role="tabpanel" aria-labelledby="spotlight-tab" tabindex="0">   
+                                    <div class="swiper spotlightSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore1.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">15 Aug 2022</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">15 Aug 2022</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">15 Aug 2022</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">15 Aug 2022</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 spotlightControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var spotlightSwiper = new Swiper(".spotlightSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".spotlightControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".spotlightControls .swiper-button-next",
+                                            prevEl: ".spotlightControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="events-tab-pane" role="tabpanel" aria-labelledby="events-tab" tabindex="0">   
+                                    <div class="swiper eventsSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="event1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore4.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">20 Dec 2022</p>
+                                                                <p class="card-title font-b mb-4">14th Annual Undergraduate Research 
+                                                                    Experience Program Competition
+                                                                    </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Events</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 eventsControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var eventsswiper = new Swiper(".eventsSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".eventsControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".eventsControls .swiper-button-next",
+                                            prevEl: ".eventsControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="publications-tab-pane" role="tabpanel" aria-labelledby="publications-tab" tabindex="0">
+                                    <div class="swiper publicationsSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">15 Aug 2022</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 publicationsControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var publicationsSwiper = new Swiper(".publicationsSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".publicationsControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".publicationsControls .swiper-button-next",
+                                            prevEl: ".publicationsControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="newsletters-tab-pane" role="tabpanel" aria-labelledby="newsletters-tab" tabindex="0">
+                                    <div class="swiper newslettersSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="nl1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore3.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">13 Dec 2023</p>
+                                                                <p class="card-title font-b mb-4">January Newsletter: Monthly roundup QRDI Council Announces Corporate 
+                                                                    Innovation Leaders Program</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Newsletters</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 newslettersControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var newslettersSwiper = new Swiper(".newslettersSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".newslettersControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".newslettersControls .swiper-button-next",
+                                            prevEl: ".newslettersControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="leadership-tab-pane" role="tabpanel" aria-labelledby="leadership-tab" tabindex="0">
+                                    <div class="swiper leadershipSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="lt1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore1.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">08 Nov 2023</p>
+                                                                <p class="card-title font-b mb-4">H.E Buthaina bint Ali Al-Jabr Al-Nuaimi 
+                                                                    shares insights in identifying partnerships across innovation communities</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Leadership Thoughts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 leadershipControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var leadershipSwiper = new Swiper(".leadershipSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".leadershipControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".leadershipControls .swiper-button-next",
+                                            prevEl: ".leadershipControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="podcasts-tab-pane" role="tabpanel" aria-labelledby="podcasts-tab" tabindex="0">
+                                    <div class="swiper podcastsSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="podcast1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/explore2.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">10 Dec 2023</p>
+                                                                <p class="card-title font-b mb-4">Dr. Richard O’Kennedy discusses the 
+                                                                    Nation’s RDI Ambition and Strategic 
+                                                                    Direction </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Podcasts</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 podcastsControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="explore.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var podcastsSwiper = new Swiper(".podcastsSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".podcastsControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".podcastsControls .swiper-button-next",
+                                            prevEl: ".podcastsControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </section> -->
+            <section class="section py-60 border-grey-top border-grey-bottom position-relative d-flex align-items-center" id="innovation">
+                <img src="assets/images/static/innovation-bg.png" alt="" class="bg-image w-100">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 offset-lg-1 mb-3 order-lg-2">
+                        <div class="position-relative">
+                            <div class="position-relative image-wrapper">
+                                <img src="assets/images/dynamic/innovation.jpg" alt="">
+                            </div>
+                            <img src="assets/images/static/dots.svg" alt="" class="position-absolute dotted-image" >
+                            <img src="assets/images/static/vector1.svg" alt="" class="position-absolute vector-image vc1" data-scroll-speed="18"  >
+                            <img src="assets/images/static/vector2.svg" alt="" class="position-absolute vector-image2 vc2" data-scroll-speed="18" >
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 order-1" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out"
+                    data-aos-anchor-placement="center-bottom">
+                        <div class="mb-2 mb-lg-4">
+                            <div class="rect bg-burgundy me-2 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                            <h1 class="font-b d-inline-block title v-align-middle">Innovation </h1>
+                        </div>
+                        <div>
+                            <p class="font-b fs-24 mb-lg-4">
+                               Qatar has built strength in education and has owned a leading role in research within the region. 
+                            </p>
+                            <p class="font-r fs-18 mb-lg-4 lh-custom">
+                                Going forward, research in Qatar aims to expand the frontiers of knowledge by contributing and building upon outputs such as publications with high field-weighted citation impact, intellectual property (IP), patents and proofs of concept.                             </p>
+                            
+                            <a href="innovation.html" class="border-0 burgundy-button py-3 px-3 d-flex align-items-center mt-lg-5 min-70 mb-4">
+                                <p class="mb-0 font-b text-white me-4">
+                                    Learn more on Innovation
+                                </p>
+                                <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section py-60 border-grey-bottom d-flex align-items-center" id="research">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 offset-lg-1 mb-3">
+                        <div class="position-relative">
+                            <div class="position-relative image-wrapper">
+                                <img src="assets/images/dynamic/research.jpg" alt="">
+                            </div>
+                            <img src="assets/images/static/dots.svg" alt="" class="position-absolute dotted-image" >
+                            <img src="assets/images/static/vector1.svg" alt="" class="position-absolute vector-image vc9" data-scroll-speed="18"  >
+                            <img src="assets/images/static/vector2.svg" alt="" class="position-absolute vector-image2 vc2" data-scroll-speed="18" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 d-flex flex-column" data-aos="fade-up"  data-aos-duration="800" data-aos-easing="ease-out"
+                    data-aos-anchor-placement="center-bottom">
+                        <div class="mb-2 mb-lg-4 mt-2 mt-lg-0 d-flex align-items-center">
+                            <div class="rect bg-burgundy me-2 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                            <h1 class="font-b title v-align-middle m-end">Scientific 
+                                Research</h1>
+                        </div>
+                        <div class="m-end">
+                            <p class="font-r fs-18 mb-lg-4 lh-custom">
+                                Qatar has built strength in education and has owned a leading role in research within the region. Going forward, research in Qatar aims to expand the frontiers of knowledge by contributing and building upon outputs such as publications with high field-weighted citation impact, intellectual property (IP), patents and proofs of concept. 
+                            </p>
+                            <a href="scientific-research.html" class="border-0 burgundy-button py-3 px-3 d-flex align-items-center mt-lg-5 min-70">
+                                <p class="mb-0 font-b text-white me-4">
+                                    Learn more on scientific research
+                                </p>
+                                <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="section py-60 border-grey-top border-grey-bottom d-flex align-items-center height-auto" id="2030vision">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-3 order-lg-2">
+                            <div class="position-relative text-center">
+                                <p class="font-b twentythirty text-center position-absolute top-50 start-50 translate-middle" ><span class="english-number">2030</span></p>
+                                <p class="font-b twentythirtyvision text-center position-absolute top-50 start-50 translate-middle d-flex" data-aos="zoom-in"><span class="pe-2" data-aos="fade-up" ><span class="english-number">2030</span></span> <span data-aos="fade-up" data-aos-delay="200">Vision</span></p>
+                                <img src="assets/images/static/map.png" alt="" class="map" data-aos="zoom-in">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1 order-1" data-aos="fade-up"  data-aos-duration="800" data-aos-easing="ease-out"
+                        data-aos-anchor-placement="center-bottom">
+                         
+                            <div class="d-flex align-items-center mb-2 mb-lg-4  mt-2 mt-lg-0">
+                                <div class="rect bg-burgundy me-2 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                                <h1 class="font-b d-inline-block title v-align-middle">Strategic Focus</h1>
+                            </div>
+                            <div>
+                                <p class="font-r fs-18 mb-4 lh-custom">
+                                    QRDI 2030 presents a bold and ambitious vision that delivers a holistic change in the RDI ecosystem through seven transformation elements. QRDI 2030 outlines five national priority areas into which future RDI activities will be directed to help address national challenges and make the most of Qatar’s RDI opportunity.
+                                  
+                                </p>
+                                <a href="strategic-focus.html#towards" class="transparent-button py-3 px-3 d-flex align-items-center" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+                                    <p class="mb-0 font-b me-4 ">
+                                        The Vision
+                                    </p>
+                                    <img src="assets/images/static/link_arrow_burgundy.svg" alt="" class="ms-auto button-arrow">
+                                </a>
+                                <a href="strategic-focus.html#ete" class="transparent-button py-3 px-3 d-flex align-items-center border-top-0" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+                                    <p class="mb-0 font-b me-4 ">
+                                        Ecosystem Transformation Elements
+                                    </p>
+                                    <img src="assets/images/static/link_arrow_burgundy.svg" alt="" class="ms-auto button-arrow">
+                                </a>
+                                <a href="strategic-focus.html#nrpa" class="transparent-button py-3 px-3 d-flex align-items-center border-top-0" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+                                    <p class="mb-0 font-b me-4 ">
+                                        National RDI Priority Areas
+                                    </p>
+                                    <img src="assets/images/static/link_arrow_burgundy.svg" alt="" class="ms-auto button-arrow">
+                                </a>
+                              
+                                <a href="strategic-focus.html" class="border-0 burgundy-button py-3 px-3 d-flex align-items-center mt-5 min-70">
+                                    <p class="mb-0 font-b text-white me-4">
+                                        Learn more on strategic focus
+                                    </p>
+                                    <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+         
+            <section class="section py-60 border-grey-top border-grey-bottom position-relative min-height height-auto" id="rditalent">
+                <div class="bg-img-relative">
+                    <img src="assets/images/dynamic/strategic-bg.jpg" alt="" class="bg-image rdi-image w-100">
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-1 order-1 mt-lg-5" data-aos="fade-up" 
+                        data-aos-anchor-placement="center-bottom">
+                            <div class="mb-2 mb-lg-4 mt-4 mt-lg-0 d-flex align-items-center">
+                                <div class="rect bg-burgundy me-2 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                                <h1 class="font-b d-inline-block title v-align-middle">Strategic Initiatives</h1>
+                            </div>
+                            <div class="m-end">
+                                <p class="font-r fs-18 mb-4 lh-custom">
+                                    The Qatar Research, Development, and Innovation (QRDI) Council has several strategic initiatives in place to achieve this goal, including promoting partnerships between academia and industry, investing in emerging technologies, and supporting the development of skilled talent in science, technology, engineering, and mathematics (STEM) fields. These initiatives are aimed at driving economic growth and diversification in Qatar and positioning the country as a global leader in innovation and scientific research.                                </p>
+                                
+                                <a href="strategic-initiatives.html" class="border-0 burgundy-button py-3 px-3 d-flex align-items-center mt-5 min-70">
+                                    <p class="mb-0 font-b text-white me-4">
+                                        Learn more on strategic initiatives
+                                    </p>
+                                    <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section pb-0 border-grey-top border-grey-bottom min-height" id="news">
+                <div class="container-fluid">
+                    <div class="row align-items-center border-grey-bottom bg-greyl pt-5">
+                      <div class="col offset-lg-1 position-relative">
+                        <div class="mb-2 mb-lg-4 d-flex align-items-center">
+                            <div class="rect bg-burgundy me-3 me-lg-4 pe-3 d-inline-block v-align-middle"></div>
+                            <h1 class="font-b d-inline-block title v-align-middle">News & Insights</h1>
+                        </div>
+                        <ul class="nav nav-tabs border-0 flex-nowrap overflow-x-scroll" id="myTab1" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link active font-b bg-transparent border-0 fs-18 pb-0" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true"><span class="py-3">All</span> <hr></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a href="News" class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="news-tab" data-bs-toggle="tab" data-bs-target="#news-tab-pane" type="button" role="tab" aria-controls="news-tab-pane" aria-selected="false">News <hr></a>
+                            </li>
+                            <!-- <li class="nav-item" role="presentation">
+                                <a class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="Press-Releases-tab" data-bs-toggle="tab" data-bs-target="#Press-Releases-tab-pane" type="button" role="tab" aria-controls="Press-Releases-tab-pane" aria-selected="false">Press Releases <hr></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link font-b bg-transparent border-0 fs-18 pb-0" id="Interviews-tab" data-bs-toggle="tab" data-bs-target="#Interviews-tab-pane" type="button" role="tab" aria-controls="Interviews-tab-pane" aria-selected="false">Interviews <hr></a>
+                            </li> -->
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end align-items-center bg-white pt-5 py-60-bottom">
+                        <div class="col-lg-11 position-relative">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">   
+                                    <div class="swiper allSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="news1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news1.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">8 May 2023</p>
+                                                                <p class="card-title font-b mb-4">The Qatar Research, Development, and Innovation (QRDI) Council Unveils New Programs Portfolio for the Qatar National Research Fund Programs</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news2.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news-default-image.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">9 May 2022</p>
+                                                            <p class="card-title font-b mb-4">Elevating Global Innovation: QRDI Council and CDTI Unveil QASIP, a Pioneering Joint Funding Initiative for Qatari-Spanish Research, Development, and Innovation Collaboration</p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news3.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news3.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">3 May 2023</p>
+                                                            <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Hosts French Tech SME In Doha </p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news4.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news4.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">8 Mar 2023</p>
+                                                            <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Announces Further Winning Innovation Partnerships</p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news5.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news5.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100">
+                                                            <p class="card-text font-b mb-1 fs-small">21 Mar 2023</p>
+                                                            <p class="card-title font-b mb-4">
+                                                                QRDI Council Successfully Concludes the Third Edition of the Corporate Innovation Leaders Program 
+                                                                </p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news6.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news6.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">22 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council Kicks off its third Corporate Innovation Leaders Program </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news7.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news7.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">19 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council Launches an Updated Version of its Portal with Enhanced Features</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news8.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news8.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">8 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Hosts The Hassad Food Call awardee, the US Micro Nano Technologies (MNT), In Doha </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news9.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news9.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">1 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council leads Discussion on the Role of Universities in creating the Next Generation of Entrepreneurs</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 allControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        
+                                    </div>
+                                    <!-- <a href="news.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a> -->
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var allswiper = new Swiper(".allSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".allControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".allControls .swiper-button-next",
+                                            prevEl: ".allControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="news-tab-pane" role="tabpanel" aria-labelledby="news-tab" tabindex="0">
+                                    <div class="swiper newsSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="news1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news1.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">8 May 2023</p>
+                                                                <p class="card-title font-b mb-4">The Qatar Research, Development, and Innovation (QRDI) Council Unveils New Programs Portfolio for the Qatar National Research Fund Programs</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news2.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <!-- <img src="assets/images/dynamic/news2.png" class="card-img-top" alt=""> -->
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">9 May 2022</p>
+                                                            <p class="card-title font-b mb-4">Elevating Global Innovation: QRDI Council and CDTI Unveil QASIP, a Pioneering Joint Funding Initiative for Qatari-Spanish Research, Development, and Innovation Collaboration</p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news3.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news3.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">3 May 2023</p>
+                                                            <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Hosts French Tech SME In Doha </p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news4.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news4.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100 ">
+                                                            <p class="card-text font-b mb-1 fs-small">8 Mar 2023</p>
+                                                            <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Announces Further Winning Innovation Partnerships</p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news5.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/news5.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100">
+                                                            <p class="card-text font-b mb-1 fs-small">21 Mar 2023</p>
+                                                            <p class="card-title font-b mb-4">
+                                                                QRDI Council Successfully Concludes the Third Edition of the Corporate Innovation Leaders Program 
+                                                                </p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news6.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news6.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">22 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council Kicks off its third Corporate Innovation Leaders Program </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news7.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news7.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">19 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council Launches an Updated Version of its Portal with Enhanced Features</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news8.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news8.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">8 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI’s Qatar Open Innovation Program Hosts The Hassad Food Call awardee, the US Micro Nano Technologies (MNT), In Doha </p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="news9.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/news9.png" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100 ">
+                                                                <p class="card-text font-b mb-1 fs-small">1 Feb 2023</p>
+                                                                <p class="card-title font-b mb-4">QRDI Council leads Discussion on the Role of Universities in creating the Next Generation of Entrepreneurs</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">News</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 newsControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <!-- <a href="news.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a> -->
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var newsSwiper = new Swiper(".newsSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".newsControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".newsControls .swiper-button-next",
+                                            prevEl: ".newsControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <!-- <div class="tab-pane fade" id="Press-Releases-tab-pane" role="tabpanel" aria-labelledby="Press-Releases-tab" tabindex="0">
+                                    <div class="swiper Press-Releases-Swiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="pr1.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                    <div class="card-image-wrapper mb-4">
+                                                        <img src="assets/images/dynamic/pr1.png" class="card-img-top" alt="">
+                                                    </div>
+                                                    <div class="card-body p-0 px-3">
+                                                        <div class="info h-100">
+                                                            <p class="card-text font-b mb-1 fs-small">18 Oct 2022</p>
+                                                            <p class="card-title font-b mb-4">14th Annual Undergraduate Research Experience Program Competition (UREP) Celebrates Student Researchers, Announces Winning Projects</p>
+                                                            <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Press Release</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="pr2.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                <div class="card-image-wrapper mb-4">
+                                                    <img src="assets/images/dynamic/pr2.png" class="card-img-top" alt="">
+                                                </div>
+                                                <div class="card-body p-0 px-3">
+                                                    <div class="info h-100">
+                                                        <p class="card-text font-b mb-1 fs-small">03 Jun 2021</p>
+                                                        <p class="card-title font-b mb-4">QRDI Council leads “Russia-Qatar Innovation Dialogue” at St. Petersburg International Economic Forum (SPIEF)</p>
+                                                        <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Press Release</a></p>
+                                                    </div>
+                                                </div>
+                                            </div></a></div>
+                                            <div class="swiper-slide">
+                                                <a href="pr3.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                <div class="card-image-wrapper mb-4">
+                                                    <img src="assets/images/dynamic/pr3.png" class="card-img-top" alt="">
+                                                </div>
+                                                <div class="card-body p-0 px-3">
+                                                    <div class="info h-100">
+                                                        <p class="card-text font-b mb-1 fs-small">02 Feb 2022</p>
+                                                        <p class="card-title font-b mb-4">QRDI Council and Kahramaa Sign MoU to Support Sustainability in Qatar</p>
+                                                        <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Press Release</a></p>
+                                                    </div>
+                                                </div>
+                                            </div></a></div>
+                                            <div class="swiper-slide">
+                                                <a href="pr4.html" class="card-link">
+                                                <div class="card text-start border-0 me-auto">
+                                                <div class="card-image-wrapper mb-4">
+                                                    <img src="assets/images/dynamic/pr4.jpeg" class="card-img-top" alt="">
+                                                </div>
+                                                <div class="card-body p-0 px-3">
+                                                    <div class="info h-100">
+                                                        <p class="card-text font-b mb-1 fs-small">31 Mar 2021</p>
+                                                        <p class="card-title font-b mb-4">Qatar Research, Development, and Innovation (QRDI) Council and Ooredoo Sign MoU to Boost Innovation in Qatar</p>
+                                                        <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Press Release</a></p>
+                                                    </div>
+                                                </div>
+                                            </div></a></div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 Press-Releases-Controls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="news.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var PressReleasesSwiper = new Swiper(".Press-Releases-Swiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".Press-Releases-Controls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".Press-Releases-Controls .swiper-button-next",
+                                            prevEl: ".Press-Releases-Controls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="tab-pane fade" id="Interviews-tab-pane" role="tabpanel" aria-labelledby="Interviews-tab" tabindex="0">
+                                    <div class="swiper InterviewsSwiper swiperCommon mb-5">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="interview1.html" class="card-link">
+                                                    <div class="card text-start border-0 me-auto">
+                                                        <div class="card-image-wrapper mb-4">
+                                                            <img src="assets/images/dynamic/interview1.jpg" class="card-img-top" alt="">
+                                                        </div>
+                                                        <div class="card-body p-0 px-3">
+                                                            <div class="info h-100">
+                                                                <p class="card-text font-b mb-1 fs-small">02 May 2019</p>
+                                                                <p class="card-title font-b mb-4">Oxford Business Group Interview with the QRDI Council Secretary General</p>
+                                                                <p class="font-r fs-small"><a href="#" class="font-b text-burgundy pe-3">Interview</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls position-absolute w-100 InterviewsControls">
+                                        <div class="swiper-buttons">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <a href="news.html" class="border-0 py-3 px-3 d-flex align-items-center mx-auto swiper-button">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            Discover more
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                                    <script>
+                                        var InterviewsSwiper = new Swiper(".InterviewsSwiper", {
+                                        slidesPerView: 1.3,
+                                        spaceBetween: 15,
+                                        pagination: {
+                                            el: ".InterviewsControls .swiper-pagination",
+                                            type: "fraction"
+                                        },
+                                        navigation: {
+                                            nextEl: ".InterviewsControls .swiper-button-next",
+                                            prevEl: ".InterviewsControls .swiper-button-prev"
+                                        },
+                                        breakpoints: {
+                                            1024: {
+                                                slidesPerView: 3.5,
+                                            },
+                                        }
+                                        });
+                                    </script>
+                                </div> -->
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- <section class="border-grey-top py-60 bg-dark height-auto" id="connect">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h1 class="text-center font-b mb-2 text-white">Get news and updates</h1>
+                    <p class="text-center font-r mb-2 fs-24 text-white">Hear about events, news and insights from QRDI and ways you can support us. </p>
+                   
+                </div>
+                <div class="col-lg-6">
+                    <form class="d-lg-flex mt-4 text-center">
+                        <div class="form-group w-100 me-4">
+                            <input type="email" class="form-control email-input py-2 px-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required="">
+                        </div>
+                        <button type="submit" class="border-0 py-2 px-5 white-bg text-black subscribe-button mt-4 mt-lg-0">
+                            <p class="m-0 d-inline-block font-b text-center">
+                                Submit 
+                            </p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="bg-black text-white d-lg-flex">
+        <div class="social text-lg-center">
+            <ul class="vertical-list p-0 px-2">
+                <!-- <li class="pt-4 logo">
+                    <a href="#" target="_blank">
+                        <img src="assets/images/static/qrdi-portal-logo.svg" alt="" class="w-75">
+                    </a>
+                </li> -->
+                <li class="px-4 pt-lg-5 pb-2">
+                    <p class="text-white fs-14 font-r text-start">Follow QRDI Council 
+                        on Social media</p>
+                    
+                </li>
+                <li class="mt-4 me-2 me-lg-0 pb-2">
+                    <a href="https://twitter.com/qrdicouncil?lang=en" target="_blank">
+                        <img src="assets/images/static/twitter.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="mt-4 mx-2 mx-lg-0 pb-2">
+                    <a href="https://www.linkedin.com/company/qrdicouncil/" target="_blank">
+                        <img src="assets/images/static/linkdin.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="mt-4 mx-2 mx-lg-0 pb-2">
+                    <a href="https://www.facebook.com/profile.php?id=100075699677724" target="_blank">
+                        <img src="assets/images/static/facebook.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="mt-4 mx-2 mx-lg-0 pb-2">
+                    <a href="https://www.instagram.com/qrdicouncil/" target="_blank">
+                        <img src="assets/images/static/instagram.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+                <li class="mt-4 mx-2 mx-lg-0 pb-2">
+                    <a href="https://www.youtube.com/channel/UCUcLcYgH1R-ij1YxWlree5w" target="_blank">
+                        <img src="assets/images/static/youtube.svg" alt="" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <div class="container-fluid">
+                <div class="row m-0">
+                    <div class="col-12 col-lg-10 offset-lg-1 p-0">
+                        <div class="row">
+                            <div class="col-lg-4 p-lg-0"> 
+                                <ul class="vertical-list py-3 py-lg-5 m-0 px-0">
+                                    <li class="mb-3 font-b">
+                                        <a href="index.html" class="text-white">Home</a>
+                                    </li>
+                                    <li class="mb-3 font-b">
+                                        <a href="national-ambition.html" class="text-white">National Ambition</a>
+                                    </li>
+                                    <li class="mb-3 font-b">
+                                        <a href="innovation.html" class="text-white">Innovation </a>
+                                    </li>
+                                    <li class="mb-3 font-b">
+                                        <a href="scientific-research.html" class="text-white">Scientific Research</a>
+                                    </li>
+                                    <li class="mb-3 font-b">
+                                        <a href="strategic-focus.html" class="text-white">Strategic Focus </a>
+                                    </li>
+                                    <li class="mb-3 font-b"><a href="strategic-initiatives.html" class="text-white" target="_blank">Strategic Initiatives</a></li>
+                                    <li class="mb-3 font-b">
+                                        <a href="about.html" class="text-white">About</a>
+                                    </li>
+                                   <!--  <li class="mb-3 font-b">
+                                        <a href="#" class="text-white">Discover more</a>
+                                    </li>
+                                    <li class="mb-3 font-b">
+                                        <a href="#" class="text-white">Join our team </a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            <div class="col-lg-5">
+                                <ul class="vertical-list py-3 py-lg-5 m-0 px-0">
+                                    <li class="font-b mb-3"><a href="connect.html" class="text-white">Reach Us</a>
+                                        <p class="font-l mt-3"><a href="mailto:info@qrdi.org.qa" class="text-white" target="_blank"><span class="english-number">info@qrdi.org.qa</span></a></p> 
+                                        <p class="font-l m-0 mt-2">PO Box <span class="english-number">5825</span>, ThinkBay, Education City, </p>
+                                        <p class="font-l">Doha – State of Qatar</p>
+                                        <!-- <button type="button" class="btn btn-outline-light rounded-0">Send us a message</button> -->
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="ps-lg-2 w-100 py-lg-5">
+                                    <a href="https://connect.qrdi.org.qa/" class="border-0 burgundy-button py-2 px-3 d-flex align-items-center w-auto min-70" target="_blank">
+                                        <p class="mb-0 font-b text-white me-4">
+                                            QRDI Portal
+                                        </p>
+                                        <img src="assets/images/static/link_arrow.svg" alt="" class="ms-auto">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 px-0">
+                        <div class="fs-small mt-1 py-4 d-lg-flex justify-content-between">
+                            <!--<div class="ms-3 ms-lg-0">
+                                <a href="terms.html" class="text-white message me-3 underline-a">Terms of service</a>
+                                <a href="privacy.html" class="text-white message underline-a">Privacy Policy</a>
+                            </div>-->
+                            <p class="pe-3 ms-3 ms-lg-0"> Copyright <span class="english-number">© 2023</span> All rights reserved | Qatar Research, Development and Innovation Council</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script>
+             AOS.init({
+            disable: function() {
+                var maxWidth = 1000;
+                return window.innerWidth < maxWidth;
+            }
+            });
+          </script>
+
+        <script>
+                function checkOffset() {
+
+                if($('.vertical-bar').offset().top + $('.vertical-bar').height() 
+                                                    >= $('footer').offset().top - $('footer').height())
+                
+                    $('.vertical-bar').css({'bottom': 0, 'top':'auto', 'position':'absolute'});
+                if($(document).scrollTop() + window.innerHeight < $('footer').offset().top)
+                    // restore when you scroll up
+                    $('.vertical-bar').css({'bottom': 'auto', 'top':'0', 'position':'fixed'});
+                    
+                }
+            /////////// CHANGE ACTIVE LINK ON SCROLL (when section changes the active in the vertical bar changes)
+                const sections = document.querySelectorAll("section");
+                const navLi = document.querySelectorAll(".stickylink");
+                window.onscroll = () => {
+                    var current = "";
+                    checkOffset();
+                    sections.forEach((section) => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= sectionTop-50 ) {
+                        $('.section').removeClass("section-active")
+                        current = section.getAttribute("id");
+                        $('#'+current).addClass('section-active')
+                    }
+                    });
+                
+                    // navLi.forEach((a) => {
+                    //     a.classList.remove("active");
+                    // if (a.classList.contains(current)) {
+                    //     a.classList.add("active");
+                    // }
+                    // });
+
+                    if($('#news').hasClass('section-active')){
+                    $('#scroll svg').addClass('rotate-arrow')
+                    }
+                    else{
+                    $('#scroll svg').removeClass('rotate-arrow')
+                    }
+                };
+            //STICKY CHANGE BG COLOR ON SCROLL  
+
+                if(!($(".vertical-bar").hasClass("changeVerticalBar"))){
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 50) {
+                            $(".vertical-bar").addClass("changeVerticalBar")
+                        }
+                        else{
+                            $(".vertical-bar").removeClass("changeVerticalBar")
+                        }
+                    });
+
+                }
+                $('.tab-nav').click( function (e) {
+                    text = $(this).text();
+                    var trimStr = $.trim(text).split(" ").join("");
+                    console.log(trimStr)
+                    activaTab(trimStr);
+                });
+                function activaTab(tab){
+                    $('#myTab a[href="#' + tab + '"]').tab('show');
+                };
+                
+
+                
+        </script>
+</body>
+
+</html>

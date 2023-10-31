@@ -1,0 +1,187 @@
+html, body{	
+    font-size: 16px;
+}
+.text-black{
+    color: var(--black) !important;
+}
+.text-white{
+    color: var(--white) !important;
+}
+.text-burgundy{
+    color: var(--burgundy) !important;
+}
+.text-burgundyl{
+    color: var(--burgundyl) !important;
+}
+.bg-black{
+    background-color: var(--black) !important;
+}
+.bg-white{
+    background-color: var(--white) !important;
+}
+.bg-burgundy{
+    background-color: var(--burgundy) !important;
+}
+.bg-grey{
+    background-color: var(--greyb) !important;
+}
+.bg-greyl{
+    background-color: var(--greyl) !important;
+}
+.bg-dark{
+    background-color: var(--greydark) !important;
+}
+.bg-pink{
+    background-color: var(--pink) !important;
+}
+.bg-greym{
+    background-color: var(--greym) !important;
+}
+.bg-transparent{
+    background-color: transparent!important;
+}
+.bg-quote{
+    background-color: var(--greyabout) !important; 
+}
+
+.fs-3{
+    font-size: 3rem !important;
+    line-height: 0.6;
+}
+.fs-4{
+    font-size: 2.5rem !important;
+    line-height: 1;
+}
+.fs-5{
+    font-size: 1.875rem !important;
+    line-height: 1;
+}
+.fs-6{
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+.fs-13{
+    font-size: 0.813rem !important;
+    line-height: 1.5;
+}
+.fs-8{
+    font-size: 0.5rem !important;
+    line-height: 1;
+}
+.fs-10{
+    font-size: 0.625rem !important;
+    line-height: 1;
+}
+.fs-12{
+    font-size: 0.75rem !important;
+    line-height: 1.5;
+}
+.fs-14{
+    font-size: 0.875rem !important;
+    line-height: 1.2;
+}
+.fs-18{
+    font-size: 1.125rem !important;
+    line-height: 1.5;
+}
+.fs-20{
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+.fs-24{
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+}
+.fs-28{
+    font-size: 1.75rem !important;
+    line-height: 1.2;
+}
+.fs-32{
+    font-size: 2rem !important;
+    line-height: 1.2;
+}
+.fs-36{
+    font-size: 2.25rem !important;
+    line-height: 1;
+}
+.fs-small{
+    font-size: 0.875rem !important;
+    line-height: 1.5;
+}
+.fs-normal{
+    font-size: 1rem !important;
+    line-height: 1.5;
+}
+.fs-huge{
+    font-size: 10.5rem !important;
+    line-height: 1;
+}
+.display-1{
+    font-size: 4.6rem !important;
+    line-height: 1;
+}
+
+.zindex-2{
+    z-index: 2;
+}
+.h-100vh{
+    height: 100vh;
+}
+.h-100-hero{
+    height: calc(100vh - 95px);
+}
+.pt-8{
+    padding-top: 8rem!important;
+}
+.fw-700{
+    font-weight: 700!important;
+}
+a{
+    text-decoration: none;
+    &.underlined{
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px
+      }
+}
+.py-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.py-60-top{
+    padding-top: 60px;
+}
+.py-60-bottom{
+    padding-bottom: 60px;
+}
+.py-120-top{
+    padding-top: 120px;
+}
+.py-120-bottom{
+    padding-bottom: 120px;
+}
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;  
+}
+.hero-content{
+    bottom: 8%;
+}
+.m-end{
+    margin-right: 80px;
+}
+.bottom-0{
+    bottom: 0;
+}
+.w-45{
+    width: 45%;
+}
+.border-burgundy{
+    border: 1px solid var(--burgundy);
+}
+.top-94{
+    top: 94px;
+}
+.program-bg{
+   background-color: var(--greybg); 
+}

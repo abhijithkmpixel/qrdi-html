@@ -1,0 +1,125 @@
+/* -----------------------------------------------------
+Fonts
+----------------------------------------------------- */
+
+@font-face {
+    font-family: 'DINBold';
+    src: url('../../assets/fonts/DINBold.eot');
+    src: url('../../assets/fonts/DINBold.eot') format('embedded-opentype'),
+         url('../../assets/fonts/DINBold.woff2') format('woff2'),
+         url('../../assets/fonts/DINBold.woff') format('woff'),
+         url('../../assets/fonts/DINBold.ttf') format('truetype'),
+         url('../../assets/fonts/DINBold.svg#DINBold') format('svg');
+}
+@font-face {
+    font-family: 'DINLight';
+    src: url('../../assets/fonts/DINLight.eot');
+    src: url('../../assets/fonts/DINLight.eot') format('embedded-opentype'),
+         url('../../assets/fonts/DINLight.woff2') format('woff2'),
+         url('../../assets/fonts/DINLight.woff') format('woff'),
+         url('../../assets/fonts/DINLight.ttf') format('truetype'),
+         url('../../assets/fonts/DINLight.svg#DINLight') format('svg');
+}
+@font-face {
+    font-family: 'DINLightItalic';
+    src: url('../../assets/fonts/DINLightItalic.eot');
+    src: url('../../assets/fonts/DINLightItalic.eot') format('embedded-opentype'),
+         url('../../assets/fonts/DINLightItalic.woff2') format('woff2'),
+         url('../../assets/fonts/DINLightItalic.woff') format('woff'),
+         url('../../assets/fonts/DINLightItalic.ttf') format('truetype'),
+         url('../../assets/fonts/DINLightItalic.svg#DINLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'DINMedium';
+    src: url('../../assets/fonts/DINMedium.eot');
+    src: url('../../assets/fonts/DINMedium.eot') format('embedded-opentype'),
+         url('../../assets/fonts/DINMedium.woff2') format('woff2'),
+         url('../../assets/fonts/DINMedium.woff') format('woff'),
+         url('../../assets/fonts/DINMedium.ttf') format('truetype'),
+         url('../../assets/fonts/DINMedium.svg#DINMedium') format('svg');
+}
+@font-face {
+    font-family: 'DINRegular';
+    src: url('../../assets/fonts/DINRegular.eot');
+    src: url('../../assets/fonts/DINRegular.eot') format('embedded-opentype'),
+         url('../../assets/fonts/DINRegular.woff2') format('woff2'),
+         url('../../assets/fonts/DINRegular.woff') format('woff'),
+         url('../../assets/fonts/DINRegular.ttf') format('truetype'),
+         url('../../assets/fonts/DINRegular.svg#DINRegular') format('svg');
+}
+@font-face {
+    font-family: 'ArticulatCFBold';
+    src: url('../../assets/fonts/ArticulatCFBold.eot');
+    src: url('../../assets/fonts/ArticulatCFBold.eot') format('embedded-opentype'),
+         url('../../assets/fonts/ArticulatCFBold.woff2') format('woff2'),
+         url('../../assets/fonts/ArticulatCFBold.woff') format('woff'),
+         url('../../assets/fonts/ArticulatCFBold.ttf') format('truetype'),
+         url('../../assets/fonts/ArticulatCFBold.svg#ArticulatCFBold') format('svg');
+}
+@font-face {
+    font-family: 'GESSTwoMediumMedium';
+    src: url('../../assets/fonts/GESSTwoMediumMedium.eot');
+    src: url('../../assets/fonts/GESSTwoMediumMedium.eot') format('embedded-opentype'),
+         url('../../assets/fonts/GESSTwoMediumMedium.woff2') format('woff2'),
+         url('../../assets/fonts/GESSTwoMediumMedium.woff') format('woff'),
+         url('../../assets/fonts/GESSTwoMediumMedium.ttf') format('truetype'),
+         url('../../assets/fonts/GESSTwoMediumMedium.svg#GESSTwoMediumMedium') format('svg');
+}
+@font-face {
+    font-family: 'GESSTwoLightLight';
+    src: url('../../assets/fonts/GESSTwoLightLight.eot');
+    src: url('../../assets/fonts/GESSTwoLightLight.eot') format('embedded-opentype'),
+         url('../../assets/fonts/GESSTwoLightLight.woff2') format('woff2'),
+         url('../../assets/fonts/GESSTwoLightLight.woff') format('woff'),
+         url('../../assets/fonts/GESSTwoLightLight.ttf') format('truetype'),
+         url('../../assets/fonts/GESSTwoLightLight.svg#GESSTwoLightLight') format('svg');
+}
+@font-face {
+    font-family: 'GESSTwoBoldBold';
+    src: url('../../assets/fonts/GESSTwoBoldBold.eot');
+    src: url('../../assets/fonts/GESSTwoBoldBold.eot') format('embedded-opentype'),
+         url('../../assets/fonts/GESSTwoBoldBold.woff2') format('woff2'),
+         url('../../assets/fonts/GESSTwoBoldBold.woff') format('woff'),
+         url('../../assets/fonts/GESSTwoBoldBold.ttf') format('truetype'),
+         url('../../assets/fonts/GESSTwoBoldBold.svg#GESSTwoBoldBold') format('svg');
+}
+
+
+
+
+$font-bold: 'DINBold';
+$font-light: 'DINLight';
+$font-italic: 'DINLightItalic';
+$font-medium: 'DINMedium';
+$font-regular: 'DINRegular';
+$font-art: 'ArticulatCFBold';
+$font-ar-bold: 'GESSTwoBoldBold';
+$font-ar-medium: 'GESSTwoMediumMedium';
+$font-ar-light: 'GESSTwoLightLight';
+
+.font-b{font-family: $font-bold};
+.font-l{font-family: $font-light};
+.font-i{font-family: $font-italic};
+.font-m{font-family: $font-medium};
+.font-r{font-family: $font-regular};
+.font-art{font-family: $font-art};
+.font-ar{font-family: $font-ar-bold}
+.ar{
+    .font-b,.font-art{font-family: $font-ar-bold;
+        .english-number{
+            font-family: $font-bold;
+        }
+    }
+    .font-l,.font-r{font-family: $font-ar-light;
+        .english-number{
+            font-family: $font-medium;
+        }
+    };
+    .font-m{font-family: $font-ar-medium;
+        .english-number{
+            font-family: $font-medium;
+        }
+    };
+    .font-english-b{font-family: $font-bold}
+    .font-english-m{font-family: $font-medium}
+}
